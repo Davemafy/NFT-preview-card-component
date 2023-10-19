@@ -42,7 +42,7 @@ img {
 
 .card {
   height: fit-content;
-  width: 300px;
+  width: 320px;
   padding: 1.5rem;
   font-weight: var(--fw-300);
   display: grid;
@@ -51,10 +51,6 @@ img {
   border-radius: 1rem;
   color: var(--cl-soft);
   background: var(--card-bg);
-}
-
-.card>* {
-  bordr: var(--line-cl) solid;
 }
 
 .header {
@@ -86,8 +82,7 @@ img {
 .title {
   color: var(--cl-white);
   font-weight: var(--fw-600);
-  font-weight: bold;
-  font-size: var(--fz-base);
+  font-size: calc(var(--fz-base) + 3px);
   transition: .25s ease;
 }
 
@@ -95,6 +90,8 @@ img {
 
 .body {
   font-weight: var(--fw-300);
+  font-size: var(--fz-base);
+  line-height: 1.4;
 }
 
 .details {

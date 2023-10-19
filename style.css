@@ -42,7 +42,7 @@ img {
 
 .card {
   height: fit-content;
-  width: 320px;
+  width: 302px;
   padding: 1.5rem;
   font-weight: var(--fw-300);
   display: grid;
@@ -82,7 +82,7 @@ img {
 .title {
   color: var(--cl-white);
   font-weight: var(--fw-600);
-  font-size: calc(var(--fz-base) + 3px);
+  font-size: calc(var(--fz-base) + .5rem);
   transition: .25s ease;
 }
 

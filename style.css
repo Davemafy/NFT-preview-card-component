@@ -41,8 +41,8 @@ img {
 }
 
 .card {
-  height: fit-content;
-  width: 302px;
+  height: 560px;
+  width: 310px;
   padding: 1.5rem;
   font-weight: var(--fw-300);
   display: grid;
@@ -82,7 +82,7 @@ img {
 .title {
   color: var(--cl-white);
   font-weight: var(--fw-600);
-  font-size: calc(var(--fz-base) + .5rem);
+  font-size: calc(var(--fz-base) + 4px);
   transition: .25s ease;
 }
 

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line-cl: hsl(215, 32%, 27%);
+  --cl-soft: hsl(215, 51%, 70%);
+  --cl-cyan: hsl(178, 100%, 50%);
+  --cl-white: hsl(0, 0%, 100%);
+  --overlay: hsl(178, 100%, 50%, .5);
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+
+  --fz-base: 18px;
+
+  --sm: 375px;
+  --lg: 1440px;
+}
+
+body {
+  background: var(--main-bg);
+  font-family: 'Outfit', sans-serif;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  line-height: 1.6;
+  font-size: var(--fz-base);
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card {
+  height: fit-content;
+  width: 300px;
+  padding: 1.5rem;
+  font-weight: var(--fw-300);
+  display: grid;
+  gap: 1rem;
+
+  border-radius: 1rem;
+  color: var(--cl-soft);
+  background: var(--card-bg);
+}
+
+.card>* {
+  bordr: var(--line-cl) solid;
+}
+
+.header {
+  position: relative;
+  border-radius: 1rem;
+}
+
+.cover {
+  border-radius: inherit;
+  height: 100%;
+}
+
+.header:after {
+  content: url("/nft-preview-card-component-main/images/icon-view.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .25s ease;
+  background: var(--overlay);
+  display: grid;
+  place-items: center;
+  border-radius: inherit;
+}
+
+.title {
+  color: var(--cl-white);
+  font-weight: var(--fw-600);
+  font-weight: bold;
+  transition: .25s ease;
+}
+
+.body {
+  font-weight: var(--fw-300);
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: var(--line-cl) 1px solid;
+}
+
+.details .currency {
+  color: var(--cl-cyan);
+  font-weight: var(--fw-600);
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.details .time {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile {
+  height: 2rem;
+  aspect-ratio: 1;
+  border-radius: 3rem;
+  border: var(--cl-white) 1px solid;
+}
+
+.author p {}
+
+.author .name {
+  transition: .25s ease;
+  color: var(--cl-white);
+}
+
+.header:hover.header:after {
+  opacity: 1;
+  z-index: 1;
+}
+
+.title:hover,
+.name:hover {
+  color: var(--cl-cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--cl-soft);
+  font-size: .6rem;
+  font-weight: var(--fw-400);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

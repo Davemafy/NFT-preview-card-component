@@ -87,8 +87,11 @@ img {
   color: var(--cl-white);
   font-weight: var(--fw-600);
   font-weight: bold;
+  font-size: var(--fz-base);
   transition: .25s ease;
 }
+
+
 
 .body {
   font-weight: var(--fw-300);

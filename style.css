@@ -131,8 +131,6 @@ img {
   border: var(--cl-white) 1px solid;
 }
 
-.author p {}
-
 .author .name {
   transition: .25s ease;
   color: var(--cl-white);
@@ -154,6 +152,7 @@ img {
   color: var(--cl-soft);
   font-size: .6rem;
   font-weight: var(--fw-400);
+  display: none;
 }
 
 .attribution a {

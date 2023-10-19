@@ -68,7 +68,7 @@ img {
 }
 
 .header:after {
-  content: url("/nft-preview-card-component-main/images/icon-view.svg");
+  content: url("images/icon-view.svg");
   position: absolute;
   top: 0;
   left: 0;

@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [code](https://github.com/Davemafy/NFT-preview-card-component/tree/main)
-- Live Site URL: [NFT Card](https://your-live-site-url.com)
+- Solution URL: [My Git Repo ](https://github.com/Davemafy/NFT-preview-card-component/tree/main)
+- Live Site URL: [NFT Card Site](https://nft-preview-card-component-davemafy.vercel.app/)
 
 ## My process
 

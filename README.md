@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [code](https://github.com/Davemafy/NFT-preview-card-component/tree/main)
+- Live Site URL: [NFT Card](https://your-live-site-url.com)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 ## What I learned
 
-## Structuring HTML
+### Structuring HTML
 
 #### Html code 
 ```html
@@ -120,15 +120,10 @@ Users should be able to:
 - Helps to create a consise and consistent look in the card
 -  Also kept my code more maintainable in the long run.
 
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
 ### Continued development
 
 
 I would love to sharpen my skills creation of more UI Components like nav-bars menus dropdowns etc...
-
 
 ### Useful resources
 
@@ -142,5 +137,4 @@ I would love to sharpen my skills creation of more UI Components like nav-bars m
 - Facebook - [David Imafidon](https://www.facebook.com/profile.php?id=100073958401432&mibextid=ZbWKwL)
 
 ## Acknowledgment
-Giving a big shoutout yo kelvin powell
-on his video about effectively turning figma design files to well wirttem css code.
+Giving a big shoutout to kelvin powell on his video about effectively turning figma design files to well wirttem css code.
